@@ -20,6 +20,3 @@ for ($i = 0; $i < 6; $i++) {
 header("Content-Disposition: attachment; filename=angtv.m3u8");
 echo $current;
 ?>
-
-
-
