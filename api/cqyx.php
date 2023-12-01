@@ -1,4 +1,4 @@
-<?php
+ <?php
 error_reporting(0);
 $cityId = '5A';
 $id = isset($_GET['id']) ? $_GET['id'] : 'cctv1';
@@ -144,7 +144,7 @@ $n = [
 ];
 // 定义 IP 范围数组
 $ipRanges = array(
-    '117.59.0.0|117.59.255.255',
+    '117.59.1.33|117.59.252.222',
 );
 
 // 解析 IP 范围并生成随机 IP
@@ -245,6 +245,3 @@ curl_close($ch);
 header("Content-Type: application/vnd.apple.mpegurl");
 header('location:' . $finalUrl);
 exit;
-
-
-
