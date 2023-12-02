@@ -117,5 +117,5 @@ $n = array(
   'cftx' => '0148', //财富天下
   'jjkt' => '0087', //嘉佳卡通
 );
-header('location:'.'http://106.39.160.202/live.aishang.ctlcdn.com/0000011024'.$n[$id].'_1/playlist.m3u8?CONTENTID=0000011024'.$n[$id].'_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR');
+header('location:'.'http://live.aishang.ctlcdn.com/0000011024'.$n[$id].'_1/playlist.m3u8?CONTENTID=0000011024'.$n[$id].'_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR');
 ?>
